@@ -27,7 +27,7 @@ namespace TSV_CS_Util
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Selected Date is " + dtSelectedDate.Text.ToString(), "WPF Demo");
+            MessageBox.Show("Selected Date is " + dtSelectedDate.Text.ToString(), "WPF");
         }
     }
 }
