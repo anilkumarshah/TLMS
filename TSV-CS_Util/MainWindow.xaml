@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <DatePicker HorizontalAlignment="Left" Margin="239,28,0,0" VerticalAlignment="Top" x:Name="dtSelectedDate">
+            
+        </DatePicker>
+        <Label x:Name="label" Content="Date" HorizontalAlignment="Left" Margin="154,28,0,0" VerticalAlignment="Top" Width="53"/>
+        <Button x:Name="button" Content="Show Date" HorizontalAlignment="Left" Height="26" Margin="154,75,0,0" VerticalAlignment="Top" Width="187" Click="button_Click"/>
+
     </Grid>
 </Window>

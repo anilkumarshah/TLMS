@@ -24,5 +24,10 @@ namespace TSV_CS_Util
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Selected Date is" + dtSelectedDate.Text.ToString(), "WPF Demo");
+        }
     }
 }
